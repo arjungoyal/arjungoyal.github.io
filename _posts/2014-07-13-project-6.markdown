@@ -5,7 +5,7 @@ date: 2021-02-02
 img: submarine.png
 alt: image-alt
 project-date: December 2019
-project: Predicting Global Migration Flows
-category: Python, R, R Shiny, D3.js
+project-name: Predicting Global Migration Flows
+tools: Python, R, R Shiny, D3.js
 description: Built a General Additive Model in Python to predict global migration flows and visualize the effects of different features.
 ---
