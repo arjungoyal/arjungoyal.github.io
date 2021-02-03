@@ -16,9 +16,6 @@
                             <hr class="star-primary">
                             <a href="https://arjungoyal100.shinyapps.io/migrationviz/" target = "_blank">
                             <img src="img/portfolio/{{ post.img }}" class="img-responsive img-centered" alt="{{ post.alt }}"></a>
-                            {% if post.description %}
-                                <p>{{ post.description }}</p>
-                            {% endif %}
                             <ul class="list-inline item-details">
                                 {% if post.concepts %}
                                     <li>Concepts Applied:
@@ -39,6 +36,9 @@
                                     </li>
                                 {% endif %}
                             </ul>
+                            {% if post.description %}
+                                <p>{{ post.description }}</p>
+                            {% endif %}
                             <button type="button" class="btn btn-default" data-dismiss="modal"><i class="fa fa-times"></i> Close</button>
                         </div>
                     </div>
