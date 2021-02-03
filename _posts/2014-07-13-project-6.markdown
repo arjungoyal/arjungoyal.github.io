@@ -2,10 +2,12 @@
 layout: default
 modal-id: 6
 date: 2021-02-02
-img: submarine.png
+img: migration_viz.png
 alt: image-alt
+title: Predicting Global Migration Flows Using General Additive Models
 project-date: December 2019
-project-name: Predicting Global Migration Flows
+concepts:  Cleaning and Joining Diverse Datasets, Missing Value Imputation, Data Visualization, Nonlinear Modeling
 tools: Python, R, R Shiny, D3.js
-description: Built a General Additive Model in Python to predict global migration flows and visualize the effects of different features.
+description: For the final team project of a data visualization course through Georgia Tech, I developed a general additive model in Python to predict global migration flows and quantify the effects of historic factors like climate change, trade dependence, and GDP on them over time. Please click on the image to play around with the app yourself.
+
 ---
